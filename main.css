@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+.mensagem-valida,
+.mensagem-invalida {
+  display: block;
+  width: 360px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+button {
+  background-color: #114515;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 360px;
+  height: 32px;
+}
+
+form button:hover {
+  background-color: #37bd43;
+}
+
+.mensagem-valida {
+  background-color: green;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.mensagem-invalida {
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
